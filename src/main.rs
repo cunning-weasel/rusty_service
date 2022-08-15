@@ -41,3 +41,5 @@ fn handle_connection(mut stream: TcpStream) {
     stream.write(response.as_bytes()).unwrap();
     stream.flush().unwrap();
 }
+
+// note to self - implement a c version - play around with doom wasm + pwa
